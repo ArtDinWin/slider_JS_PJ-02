@@ -1,0 +1,475 @@
+@media (max-width: 1300px) {
+    body {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 1.33;
+    }
+
+    h2 {
+        font-size: 24px;
+        line-height: 1.39;
+    }
+
+    h3 {
+        font-size: 21px;
+        line-height: 1.4;
+    }
+
+    h4,
+    .block-info {
+        font-size: 16px;
+        line-height: 1;
+    }
+
+    .footer,
+    .menu,
+    .phone__button,
+    ._break,
+    .slider-control,
+    .slider__list,
+    .clients,
+    .styles__list,
+    .request,
+    .styles__column--right,
+    .styles__image-bottom {
+        display: none;
+    }
+
+    .wrap,
+    .header__content,
+    .home__content {
+        max-width: 100%;
+    }
+
+    .header {
+        height: 57px;
+    }
+
+    .header__container,
+    .home__container,
+    .projects__container,
+    .online-control__content,
+    .types-repair__container,
+    .contacts__content,
+    .styles__container {
+        padding: 0 2.34vw;
+    }
+
+    .projects__container,
+    .styles__container {
+        height: auto;
+    }
+
+    .types-repair__content {
+        padding: 83px 0 28px;
+    }
+
+    .contacts {
+        background: var(--dark-color);
+    }
+
+    .contacts::after {
+        background: var(--dark-color);
+    }
+
+    .styles,
+    .styles::after {
+        background: none;
+    }
+
+    .phone__number {
+        margin: 0;
+        color: var(--white-color);
+        text-decoration: none;
+    }
+
+    .phone__number:hover {
+        color: var(--gold-color);
+    }
+
+    main {
+        /* margin-top: 56px; */
+    }
+
+    .home {
+        height: auto;
+        padding: 85px 0 61px;
+        background-position-x: center;
+    }
+
+    .home__description {
+        font-size: 14px;
+        line-height: 1.36;
+        padding-bottom: 51px;
+    }
+
+    .button {
+        max-width: 48%;
+        width: 100%;
+        border-radius: 0;
+        padding: 20px 18px;
+    }
+
+    .title,
+    .home__description {
+        max-width: 610px;
+    }
+
+    .home__title {
+        padding-bottom: 25px;
+    }
+
+    .projects {
+        padding: 36px 0 0;
+    }
+
+    .projects__content {
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        max-width: none;
+    }
+
+    .projects__elem-content {
+        flex: 100%;
+        max-width: none;
+    }
+
+    .project-description {
+        margin: 0 0 35px;
+    }
+
+    .project-description__txt,
+    .online-control__description {
+        max-width: 642px;
+        margin: var(--margin-center);
+        font-size: 12px;
+    }
+
+    .online-control__description {
+        margin-bottom: 80px;
+    }
+
+    .project-items {
+        max-width: 420px;
+        text-align: left;
+        margin: 36px 0 30px;
+    }
+
+    .project-items__info:nth-child(odd) {
+        flex: 1 1 auto;
+    }
+
+    .project-items__info:nth-child(even) {
+        flex: 0 0 160px;
+    }
+
+    .online-control__content {
+        margin-top: 0;
+        background: var(--second-dark-color);
+        color: var(--white-color);
+        padding-top: 29px;
+    }
+
+    .online-control__title,
+    .types-repair__title {
+        margin: var(--margin-center);
+        margin-bottom: 25px;
+    }
+
+    .online-control__form {
+        flex-direction: column;
+        max-width: 823px;
+        position: relative;
+        padding-bottom: 88px;
+        row-gap: 0;
+    }
+
+    .online-control__form-button {
+        max-width: none;
+        position: absolute;
+        bottom: -28px;
+    }
+
+    .online-control__form-checkbox {
+        margin-top: 27px;
+
+    }
+
+    .online-control__input {
+        margin-right: 0;
+    }
+
+    .online-control__input-elem:nth-child(1) {
+        margin-bottom: 63px;
+    }
+
+    .online-control__video {
+        max-width: 817px;
+        width: 100%;
+        height: auto;
+    }
+
+    .online-control__line {
+        margin-top: 28px;
+        margin-bottom: 22px;
+
+    }
+
+    .input {
+        display: block;
+        width: 100%;
+    }
+
+    .input__tag {
+        width: 100%;
+        background: transparent;
+        color: var(--white-color);
+    }
+
+    .input__tag::placeholder {
+        color: var(--white-color);
+    }
+
+    .icon-title {
+        margin-bottom: 40px;
+    }
+
+    .slider {
+        padding: 0 9.11vw;
+    }
+
+    .slider__image {
+        width: 80%;
+    }
+
+    .projects__elem-content:nth-child(1) {
+        order: 0;
+        margin-bottom: 37px;
+    }
+
+    .projects__elem-content:nth-child(2) {
+        order: 1;
+    }
+
+    .projects__elem-content:nth-child(3) {
+        order: 3;
+    }
+
+    .projects__elem-content:nth-child(5) {
+        order: 2;
+    }
+
+    .styles__column--left,
+    .styles__column--right {
+        margin-top: 0;
+    }
+
+    .types-repair__items {
+        flex-wrap: wrap;
+        gap: 60px 20px;
+        justify-content: center;
+        flex-basis: 49%;
+    }
+
+    .types-repair__item {
+        flex-basis: 49%;
+        align-items: flex-start;
+    }
+
+    .types-repair__image-wrap {
+        width: 100%;
+    }
+
+    .types-repair__list {
+        width: auto;
+        margin-left: -1px;
+        margin-bottom: 0;
+        width: 80%;
+    }
+
+    .types-repair__info {
+        margin-left: 0;
+    }
+
+    .styles__info {
+        max-width: none;
+        margin-bottom: 38px;
+    }
+
+    .styles__title {
+        margin: var(--margin-center);
+    }
+
+    .contacts__form {
+        order: 0;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .contacts__form-title {
+        margin: var(--margin-center) 52px;
+    }
+
+    .contacts__info {
+        order: 2;
+        margin-bottom: 24px;
+    }
+
+    .social-media {
+        order: 2;
+        margin-bottom: 0;
+    }
+
+    .contacts__map {
+        order: 1;
+        max-width: 925px;
+        width: 100%;
+        margin: 0 0 42px;
+    }
+
+    .contacts__form-checkbox {
+        margin-top: 22px;
+    }
+
+    .contacts__button-wrap {
+        padding-top: 68px;
+    }
+
+    .input--half {
+        margin-bottom: 63px;
+    }
+
+    .styles__content {
+        padding: 28px 0 0;
+        flex-direction: column;
+    }
+
+    .styles__column--left {
+        height: auto;
+        min-height: auto;
+    }
+
+    .styles__gallery {
+        flex: auto;
+    }
+
+    .styles__column {
+        flex-basis: 100%;
+        padding: 0 9.11vw;
+    }
+
+    .styles {
+        position: relative;
+        z-index: 1;
+    }
+
+    .contacts {
+        position: relative;
+        z-index: 0;
+        margin-top: -278px;
+        padding: 330px 0 49px;
+    }
+
+    .styles__title {
+        text-align: center;
+    }
+
+    .slider-button {
+        display: flex;
+        padding: 0 10.4vw;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 11px;
+    }
+
+    h1 {
+        font-size: 23px;
+        line-height: 1.33;
+    }
+
+    h2 {
+        font-size: 22px;
+        line-height: 1.39;
+    }
+
+    h3 {
+        font-size: 22px;
+        line-height: 1.4;
+    }
+
+    h4,
+    .block-info {
+        font-size: 14px;
+        line-height: 1;
+    }
+
+    .project-description__txt,
+    .online-control__description {
+        font-size: 11px;
+    }
+
+    .types-repair__subtitle {
+        font-size: 15px;
+    }
+
+    .header__container,
+    .home__container,
+    .projects__container,
+    .online-control__content,
+    .types-repair__container,
+    .contacts__content,
+    .styles__container {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .button {
+        max-width: none;
+        width: 100%;
+    }
+
+    .home__button:not(:last-child) {
+        margin: 0 0 26px 0;
+    }
+
+    .slider,
+    .styles__column {
+        padding: 0;
+    }
+
+    .types-repair__item {
+        flex-basis: 100%;
+    }
+
+    .types-repair__list {
+        min-width: 270px;
+        width: 90%;
+    }
+
+    .contacts__form-checkbox {
+        text-align: left;
+    }
+
+    .input {
+        flex-basis: 100%;
+    }
+
+    ._break-sm {
+        display: block;
+    }
+
+    .slider__image {
+        width: 100%;
+    }
+
+    .slider-button {
+        padding: 0 3.4vw;
+    }
+}
