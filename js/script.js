@@ -1,7 +1,7 @@
 const sliderData = [];
 let sliderActive = 0;
 
-function sliderProjects(name, area, time, cost, img) {
+function Slider(name, area, time, cost, img) {
   this.name = name;
   this.city = this.name.replace(",", "<br> LCD");
   this.area = area;
@@ -11,7 +11,7 @@ function sliderProjects(name, area, time, cost, img) {
 }
 
 sliderData.push(
-  new sliderProjects(
+  new Slider(
     "Rostov-On-Don, Admiral",
     // "Rostov-on-Don<br> LCD Admiral",
     81,
@@ -21,7 +21,7 @@ sliderData.push(
   )
 );
 sliderData.push(
-  new sliderProjects(
+  new Slider(
     "Sochi, Thieves",
     // "Sochi<br> LCD Thieves",
     105,
@@ -31,7 +31,7 @@ sliderData.push(
   )
 );
 sliderData.push(
-  new sliderProjects(
+  new Slider(
     "Rostov-On-Don, Patriotic",
     // "Rostov-on-Don<br> LCD Patriotic",
     93,
