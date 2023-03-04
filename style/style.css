@@ -315,9 +315,9 @@ section {
 }
 
 .projects__container {
-    padding: 107px 20px 205px;
+    padding: 107px 20px 40px;
     display: flex;
-    height: 886px;
+    height: 660px;
 }
 
 .projects__content {
